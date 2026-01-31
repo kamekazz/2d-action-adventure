@@ -1,3 +1,27 @@
 # Godot 4+ specific ignores
 .godot/
+
+# Godot-specific ignores
+*.translation
+
+# Imported textures and data
+.import/
+
+# Build/export directories
 /android/
+/build/
+/export/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific
+*.swp
+*.swo
+*~
+
+# Mono/.NET (if using C#)
+.mono/
+data_*/
+mono_crash.*.json
