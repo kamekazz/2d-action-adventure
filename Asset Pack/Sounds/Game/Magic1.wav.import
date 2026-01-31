@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bt83kpybo3f8h"
+path="res://.godot/imported/Magic1.wav-9488c696f7d3af61bbf8e8ddefbae6b0.sample"
+
+[deps]
+
+source_file="res://Asset Pack/Sounds/Game/Magic1.wav"
+dest_files=["res://.godot/imported/Magic1.wav-9488c696f7d3af61bbf8e8ddefbae6b0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

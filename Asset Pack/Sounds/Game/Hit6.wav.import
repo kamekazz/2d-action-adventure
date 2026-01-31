@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7sa5fkks5rf8"
+path="res://.godot/imported/Hit6.wav-3a84d5c25605eb379eb7f60234d77245.sample"
+
+[deps]
+
+source_file="res://Asset Pack/Sounds/Game/Hit6.wav"
+dest_files=["res://.godot/imported/Hit6.wav-3a84d5c25605eb379eb7f60234d77245.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
