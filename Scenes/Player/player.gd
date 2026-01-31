@@ -10,4 +10,12 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	var move_vector: Vector2 = Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	velocity = move_vector * move_speed
+
+	if velocity.x > 0:
+		$AnimatedSprite2D.play("move_right")
+
+	elif velocity.x < 0:
+		$AnimatedSprite2D.play("move_left")
+	else:
+		$AnimatedSprite2D.play("idle")
 	move_and_slide()
