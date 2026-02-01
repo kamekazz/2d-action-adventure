@@ -1,9 +1,10 @@
 extends CharacterBody2D
+class_name Player
 
 @export var move_speed: float = 100
 
 func _ready() -> void:
-	print("Player ready with move_speed: ", move_speed)
+	position = SceneManaager.player_spawn_position
 
 func _physics_process(delta: float) -> void:
 	var move_vector: Vector2 = Input.get_vector("move_left", "move_right", "move_up", "move_down")

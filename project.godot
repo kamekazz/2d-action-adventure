@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="2D Action Adventure"
-run/main_scene="uid://cud8vjvpegwgg"
+run/main_scene="uid://dnh0bocj3rc4y"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+SceneManaager="*res://Scenes/scene_manaager.tscn"
 
 [file_customization]
 
