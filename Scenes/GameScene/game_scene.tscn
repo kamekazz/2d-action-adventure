@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=4 uid="uid://dnh0bocj3rc4y"]
+[gd_scene load_steps=12 format=4 uid="uid://dnh0bocj3rc4y"]
 
 [ext_resource type="PackedScene" uid="uid://cud8vjvpegwgg" path="res://Scenes/Player/Player.tscn" id="1_2p8i2"]
 [ext_resource type="Texture2D" uid="uid://v6ai1ibxc7l8" path="res://Asset Pack/Backgrounds/Tilesets/TilesetFloor.png" id="1_l6yvh"]
 [ext_resource type="Texture2D" uid="uid://drjlmqvqqa5w2" path="res://Asset Pack/Backgrounds/Tilesets/TilesetNature.png" id="2_04h35"]
 [ext_resource type="Texture2D" uid="uid://m7ftt4qw4aql" path="res://Asset Pack/Backgrounds/Tilesets/TilesetReliefDetail.png" id="3_oi8ly"]
 [ext_resource type="PackedScene" uid="uid://fi8d0kgaaj5n" path="res://Scenes/SceneEntrace/scene_entrance.tscn" id="5_oi8ly"]
+[ext_resource type="PackedScene" uid="uid://dvmer6jff5va7" path="res://Scenes/block.tscn" id="6_12ovb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_04h35"]
 texture = ExtResource("1_l6yvh")
@@ -802,3 +803,6 @@ zoom = Vector2(5, 5)
 
 [node name="SceneEntrance" parent="." instance=ExtResource("5_oi8ly")]
 position = Vector2(-184, -141)
+
+[node name="Block" parent="." instance=ExtResource("6_12ovb")]
+position = Vector2(-37, 5)
